@@ -18,3 +18,4 @@ if disp_button: # al hacer clic en el botón
     st.write('Creación de un grafico de dispersion para el conjunto de datos de anuncios de venta de coches') # escribir un mensaje
     figura = px.scatter(car_data, x="odometer") # crear un grafico de dispersion
     st.plotly_chart(figura, use_container_width=True) # mostrar un gráfico Plotly interactivo
+    
